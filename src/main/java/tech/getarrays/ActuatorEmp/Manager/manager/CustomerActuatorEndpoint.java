@@ -12,9 +12,10 @@ import java.util.Map;
 public class CustomerActuatorEndpoint {
 
     @ReadOperation
-    public Map<String, String> customEndpoint() {
+    public Map<String, String> customEndpoint(String username) {
         Map<String, String> map = new HashMap<>();
         map.put("Key", "Value");
+        map.put("username", username);
         return map;
     }
 }
