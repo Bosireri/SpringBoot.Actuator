@@ -9,5 +9,4 @@ public class EmployerManagerApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(EmployerManagerApplication.class, args);
 	}
-
 }
