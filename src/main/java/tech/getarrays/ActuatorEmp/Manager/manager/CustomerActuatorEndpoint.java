@@ -16,7 +16,7 @@ public class CustomerActuatorEndpoint {
         Map<String, String> map = new HashMap<>();
         map.put("Key", "Value");
         //You include the following sequence when GetMapping on your browser's localhost "localhost:8080/admin/custom?username=Richard"
-        //but can work directly when the parenthesis is included on the 'username'
+        //but can work directly when the parenthesis is included on the ('username')
         map.put("username", username);
         return map;
     }
